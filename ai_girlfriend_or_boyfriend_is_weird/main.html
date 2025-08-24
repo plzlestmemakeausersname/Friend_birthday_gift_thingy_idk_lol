@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Device Redirect</title>
+  <script>
+    window.onload = function() {
+      if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        window.location.href = "https://youtu.be/2qXgNOHyjYA";
+      } else {
+        alert("Please use a phone to access this page.");
+      }
+    };
+  </script>
+</head>
+<body>
+  <h2>Loading...</h2>
+</body>
+</html>
